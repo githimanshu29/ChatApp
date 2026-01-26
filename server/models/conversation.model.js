@@ -19,7 +19,7 @@ export default Conversation;
 
 // participants array contains object of ids of users who are part of the conversation, Each user is stored as an ObjectId and thses ObjectId belongs directly to each user model document in short for every user....
 
-//rer -> tells mongoose that this objevt belongs to User model collection's object documents corrosponding to each user 
+//ref -> tells mongoose that this objevt belongs to User model collection's object documents corrosponding to each user 
 
 //ref-> enables mongoose to fetch related data automatically using populate() method
 
